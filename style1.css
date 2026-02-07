@@ -1,4 +1,79 @@
-body{
-    background: #190e54;
-background: linear-gradient(90deg, rgba(25, 14, 84, 1) 0%, rgba(133, 31, 135, 1) 50%, rgba(211, 83, 237, 1) 100%);
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+        to bottom,
+        #dbeafe,   
+        #ffffff    
+    );
+}
+
+header {
+    
+    background: linear-gradient(
+        to right,
+        #3f87ff,   
+        #6fb1fc    
+    );
+
+    color: white;
+}
+
+header a {
+    color: white;
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #1e3a8a;
+}
+
+a {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1d4ed8;
+}
+
+table {
+    background-color: white;
+}
+
+table td,
+table th {
+    border: 1px solid #cbd5f5;
+    padding: 10px;
+}
+
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #c7d2fe;
+}
+
+table[width="100%"] {
+    /* 🔹 Change footer gradient */
+    background: linear-gradient(
+        to right,
+        #6fb1fc,
+        #3f87ff
+    );
+
+    color: white;
+}
+
+table[width="100%"] a {
+    color: white;
 }
