@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+
+}
+h1{
+    background-color: gray;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-align: center;
+    border-radius: 10px;
+}
+h2{
+    background-color: gray;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-align: center;
+    border-radius: 10px;
+
+}
+audio{
+    box-shadow: 2px 5px 25px grey;
+    border-radius: 40px;
+}
+video{
+    box-shadow: 9px 10px 40px;
+    border-radius: 30px;
+}
+p{
+    background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+border-radius: 20px;
+color: #19be96;
+}
+.movie{
+    background-color: blue;
+}
+.make{
+    background-color: #EEAECA;
+}
