@@ -4,32 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course registration form</title>
+    <link rel="stylesheet" href="./project5.css">
 </head>
 <body>
-    <h1>course reg form</h1>
+    <h1 id="form1">course reg form</h1>
     <fieldset> <legend><strong>Personal details</strong>
     </legend>
     <form action="./server.html" autocomplete="on" method="post">
         <table>
             <tr>
                 <td><label for="fname">First name</label></td>
-                <td><input type="text"placeholder="ex:shreya" required><br></td>
+                <td><input type="text"placeholder="ex:shreya" required> <p class="tooltip">Enter your name</p></td>
             </tr>
             <tr>
-                <td><label for="sname">Surname</label></td>
+                <td><label for="sname">Surname</label><p class="tooltip">Enter your surname</p></td>
             <td><input type="text"><br></td>
         </tr>
             <tr>
-                <td><label for="mobnum">mobilenumber</label></td>
+                <td><label for="mobnum">mobilenumber</label><p class="tooltip">Enter your mobilenumber</p></td>
             <td><input type="tel"><br></td>
         </tr>
             <tr>
-                <td><label for="Email">Email</label></td>
+                <td><label for="Email">Email</label><p class="tooltip">Enter your email</p>
+                    <img class="correct" src="https://cdn-icons-png.flaticon.com/128/5610/5610944.png" alt="">
+                    <img class="wrong" src="https://cdn-icons-png.flaticon.com/128/3443/3443382.png" alt=""></td>
             <td><input type="email"><br></td>
     
         </tr>
             <tr>
-                <td><label for="password">password</label></td>
+                <td><label for="password">password</label><p class="tooltip">Enter your password</p></td>
             <td><input type="password"><br></td>
         </tr>
             <tr>
@@ -37,11 +40,11 @@
             <td><input type="password"><br></td>
         </tr>
             <tr>
-                <td><label for="dob">DOB</label></td>
+                <td><label for="dob">DOB</label><p class="tool">Enter your dob</p></td>
             <td><input type="date"><br></td>
         </tr>
             <tr>
-                <td><label for="age">Age</label></td>
+                <td><label for="age">Age</label><p class="tip">Enter your age</p></td>
             <td><input type="number"min="18" max="65"></td>
         </tr>
             <tr>
