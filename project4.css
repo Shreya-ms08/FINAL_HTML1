@@ -41,3 +41,11 @@ background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1
 .hero{
     width: 100%;
 }
+h1{
+    background: #53b3b5;
+background: linear-gradient( to right,#fb78b1, #655ee0,#e4bc3e);
+ background-clip: text;
+ font-size: 50px;
+ letter-spacing: 10px;
+ color: transparent;
+}
